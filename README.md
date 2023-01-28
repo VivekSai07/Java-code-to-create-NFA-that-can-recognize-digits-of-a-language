@@ -12,7 +12,7 @@ To run the code, you will need to have a Java Development Kit (JDK) installed on
 
 Clone this repository to your local machine using the following command:
 ```bash
-  git clone https://github.com/username/Java-code-to-create-NFA-that-can-recognize-digits-of-a-language.git
+  https://github.com/VivekSai07/Java-code-to-create-NFA-that-can-recognize-digits-of-a-language.git
 ```
 
 ## Running the code
