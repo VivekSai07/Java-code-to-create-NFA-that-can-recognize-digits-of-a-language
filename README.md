@@ -2,6 +2,11 @@
 
 This repository contains a Java file that demonstrates how to create a Non-deterministic Finite Automaton (NFA) that can recognize the digits of a language. The NFA is implemented using the Thompson's construction algorithm.
 
+## Screenshot of NFA that recognizes digits of a language
+
+![App Screenshot](https://github.com/VivekSai07/Java-code-to-create-NFA-that-can-recognize-digits-of-a-language/blob/main/NFA%20Diagram.jpeg)
+
+
 ## Getting Started
 To run the code, you will need to have a Java Development Kit (JDK) installed on your system. You can download the JDK from the official Oracle website.
 
