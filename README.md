@@ -6,17 +6,16 @@ This repository contains a Java file that demonstrates how to create a Non-deter
 To run the code, you will need to have a Java Development Kit (JDK) installed on your system. You can download the JDK from the official Oracle website.
 
 Clone this repository to your local machine using the following command:
-
----bash
+```bash
   git clone https://github.com/username/Java-code-to-create-NFA-that-can-recognize-digits-of-a-language.git
----
+```
 
 ## Running the code
 You can run the code by executing the following command in your terminal:
----bash
+```bash
   javac NFA.java
   java NFA
----
+```
 The program will then output the transition table of the NFA, which you can use to test the automaton with different input strings.
 
 # Understanding the code
