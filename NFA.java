@@ -1,10 +1,10 @@
 import java.util.*;
-public class Q1 {
+public class NFA {
 	String start;
 	Set<String> ends;
 	Map<String, Map<Character, Set<String>>> transitions;
 	
-	Q1 (String[] ss, String[] ts) {
+	NFA (String[] ss, String[] ts) {
 		ends = new TreeSet<>();
 		transitions = new TreeMap<>();
 		
@@ -81,8 +81,6 @@ public class Q1 {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		
 		String[] ss2 = {"A,S",
 						"B,E",
@@ -97,7 +95,7 @@ public class Q1 {
 						
 						"B,B,0,1,2,3,4,5,6,7,8,9"						
 						};
-		Q1 obj2 = new Q1(ss2, ts2);
+		NFA obj2 = new NFA(ss2, ts2);
 		
 		String[] test1 = {"20","5.77","+99","-5.78a"};
 		obj2.test("Test Cases", test1);
